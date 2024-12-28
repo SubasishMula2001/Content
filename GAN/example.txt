@@ -1,0 +1,60 @@
+GEN AI
+A Generative Adversarial Network (GAN) consists of two main components: the ________ and the ________.
+
+The purpose of the generator in a GAN is to ________ data that resembles the training data.
+
+The discriminator's role is to ________ between real and generated data.
+
+In adversarial training, the generator and discriminator are trained in ________ to improve their performance.
+
+A Deep Convolutional GAN (DCGAN) uses ________ layers instead of fully connected layers for better image generation.
+
+One architectural enhancement of DCGAN is the use of ________ normalization, which helps stabilize training.
+
+The training process of a DCGAN often requires careful tuning of ________ to achieve good results.
+
+A Wasserstein GAN (WGAN) improves the training of GANs by using the ________ distance instead of the Jensen-Shannon divergence.
+
+The main advantage of WGAN is that it provides more stable ________ during training.
+
+In a WGAN, the discriminator is referred to as a ________.
+
+WGANs use ________ clipping to enforce Lipschitz continuity in the critic's weights.
+
+PyTorch is known for its dynamic ________ computation, which makes it easier to modify neural networks during training.
+
+The primary benefit of using PyTorch for GANs is its ________ API, which simplifies model building.
+
+When implementing GANs in PyTorch, one common challenge is managing ________ issues, which can lead to unstable training.
+
+A typical GAN training loop includes steps for ________, training the discriminator, and updating the generator.
+
+The generator loss in a GAN is typically designed to maximize the ________ of the discriminator.
+
+In DCGANs, the generator usually employs ________ layers to upscale the generated images.
+
+The discriminator in a DCGAN often uses ________ layers to downsample the input images.
+
+WGANs help mitigate the problem of mode ________, which can occur in traditional GANs.
+
+PyTorch supports GPU acceleration through its ________ library, allowing faster training of GANs.
+
+Long Answer Questions
+
+What is a Generative Adversarial Network (GAN), and what are its main components?
+
+How does adversarial training work in GANs? What roles do the generator and discriminator play?
+
+What are the key differences between a standard GAN and a Deep Convolutional GAN (DCGAN)?
+
+What architectural enhancements does DCGAN utilize to improve image generation?
+
+What is a Wasserstein GAN (WGAN), and how does it differ from traditional GANs?
+
+Explain the significance of the Wasserstein distance in the context of WGAN.
+
+What features of PyTorch make it suitable for building GANs?
+
+What are common challenges when implementing GANs in PyTorch?
+
+
